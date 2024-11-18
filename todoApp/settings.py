@@ -73,6 +73,11 @@ WSGI_APPLICATION = 'todoApp.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
+# At the beginning of your settings.py file
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Your existing settings follow
+
 
 DATABASES = {
     'default': {
